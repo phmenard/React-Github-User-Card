@@ -1,0 +1,125 @@
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 3%;
+    
+    .user {
+        display: flex;
+        width: 40%;
+        padding: 5px;
+
+        .user-img {
+            display: flex;
+            flex-direction: column;
+                      
+            img {
+                width: 450px;
+                height: 450px;
+                border-radius: 5px;
+            }
+
+            .user-gragh {
+                margin-top: 5px;
+                width: 450px;
+                height: 150px;
+            }
+
+        }
+
+        .user-info {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            //flex-wrap: wrap;
+            //width: 100%;
+            
+            padding: 5px;
+            margin-left: 5px;
+
+            h1 {
+                display: flex;
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 5px;
+                
+                height: px;
+            }
+
+            h2 {
+                display: flex;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                display: flex;
+                font-size: 1.5rem;
+                margin-top: 3%;
+            }
+
+            a {
+                color: unset;
+                //text-decoration: unset;
+                
+            }
+    
+            a:hover {
+                color: @footer-background;
+            }
+
+            p {
+                display: flex;
+                font-size: 1.5rem;
+                margin-top: 10px;
+                
+            }
+
+            .bio {
+                display: flex;
+                font-size: 1.5rem;
+                font-style: italic;
+                
+            }
+
+            .follow-link {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+            .blog-link {
+                display: flex;
+                justify-content: flex-start;
+            }
+
+
+            
+        }
+    }
+
+    .followers-container{
+        display: flex;
+        //justify-content: center;
+        flex-direction: column;
+        width: 60%;
+
+        h3 {
+            font-size: 2rem;
+              
+        }
+        
+        .followers {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around; 
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 5px;
+
+        
+        }
+    }
+    
+    
+}
+
